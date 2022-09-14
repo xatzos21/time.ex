@@ -13,9 +13,10 @@ print("Begin time is: ", a)
 time.sleep(1)
 print("Integer number is: ", x)
 time.sleep(1)
+os.system("clear")
 while x > 0:
     print(x-1)
-    time.sleep(3)
+    time.sleep(1)
     os.system("clear")
     x = x-1
 b= time.ctime()
