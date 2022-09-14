@@ -13,16 +13,11 @@ print("Begin time is: ", a)
 time.sleep(1)
 print("Integer number is: ", x)
 time.sleep(1)
-
-# for y in range(x):
-#     print(x-1)
-
 while x > 0:
     print(x-1)
-    time.sleep(1)
-    x = x-1
+    time.sleep(3)
     os.system("clear")
-
+    x = x-1
 b= time.ctime()
 print("Begin time is: ", a)
 time.sleep(1)
