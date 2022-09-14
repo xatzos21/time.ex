@@ -1,3 +1,5 @@
+# The task is to create a loading bar
+
 import time
 import os
 
